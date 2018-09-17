@@ -1,0 +1,367 @@
+@media(max-width: 1200px){
+
+	/*HEADER*/
+
+	.menu__item{
+		margin-left: 0px;
+	}
+
+	/*SLIDER*/
+
+	.slider__item{
+		padding-left:40px;
+		padding-top: 30px;
+
+	}
+
+	.slider__item p{
+		font-size: 40px;
+		width: 190px;
+	}
+
+	/*FEATURES*/
+	.features h3{
+		font-size: 14px;
+	}
+
+	.features p{
+		margin-bottom: 0;
+	}
+
+	.features .feature{
+		margin-bottom: 10px;
+	}
+	/*TEST AND CLIENTS*/
+
+	.clients__logos__item{
+		width: 140px;
+	}
+
+	/*DOWNLOAD*/
+	.download__button i{
+		font-size: 22px;
+		padding-right: 10px;
+	}
+
+	.download__button{
+		width: 200px;
+		font-size: 16px;
+	}
+
+	/*PORTFOLIO*/
+	.portfolio__gallery figure{
+		margin-right: 20px;
+	}
+
+}
+
+@media(max-width: 992px){
+	
+	.logo{
+		text-align: center;
+	}
+
+	.menu__item:hover{
+	background-color: transparent;
+	color: black;
+	border-top: none;
+	cursor: pointer;
+	}
+
+	.menu__item:focus-within{
+	background-color: white;
+	color: #2aacc8;
+	border-top: 4px solid #2aacc8;
+	cursor: pointer;
+	}
+
+	/*LATEST WORKS*/
+	.latest-works__content{
+		height: 200px;
+	}
+
+	/*TEST AND CLIENTS*/
+
+	.clients__logos__item{
+		width: 230px;
+	}
+
+	.clients__logos{
+		text-align: center;
+	}
+
+	/*DOWNLOAD*/
+
+	.download p{
+		margin-bottom: 30px;
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.download__button{
+		margin-top: 0;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	/*FOOTER*/
+
+	.explore{
+		padding-left: 0;
+	}
+
+	.browse{
+		padding-left: 0;
+	}
+
+	.connect{
+		margin-right: -20px;
+	}
+
+	.copyright{
+		font-size: 9px;
+	}
+
+	/*PORTFOLIO*/
+
+	.portfolio__buttons button{
+		margin-right: 0;
+	}
+
+	.portfolio__gallery{
+		margin-right: -22px;
+	}
+
+	.portfolio__gallery figure{
+		width: 30%;
+	}
+
+	/*CONTACT*/
+	.contact__content input{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contact__content textarea{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.contact__content label{
+		text-align: center;
+	}
+
+	.contact__content .submit-button{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contact__content .map{
+		width: 95%;
+		height: 300px;
+	}
+
+	.contact__content__contacts{
+		text-align: center;
+	}
+}
+
+@media(max-width: 768px){
+	
+	/*HEADER*/
+	.menu{
+		text-align: center;
+		display:none;
+		background-color:#e8ebf1;
+	}
+	.logo{
+		display: inline-block;
+		text-align: left;
+	}
+	.menu-trigger{
+		display: inline;
+		position: absolute;
+		right: 20px;
+		top:40px;
+	}
+
+	.menu-trigger i{
+		font-size: 28px;
+	}
+
+	.menu__item{
+		display: block;
+		margin-right: 0;
+		border-bottom: 1px solid #d9d9d9;
+		font-size: 16px;
+	}
+
+	.submenu{
+		width: 100%;
+		padding:0 6px;
+		text-align: center;
+		position: static;
+	}
+
+	.submenu__item{
+		font-size: 16px;
+		padding-top:7px;
+		padding-bottom: 7px;
+	}
+
+	/*FEATURE*/
+
+	.features p{
+		margin-bottom: 10px;
+	}
+
+	/*LATEST WORKS*/
+
+
+	.latest-works__content img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.latest-works__content figure figcaption{
+		max-width: 100%;
+		padding-left: 72px;
+	}
+
+	.latest-works figure figcaption .fas{
+		font-size: 16px;
+	}
+
+	/*TEST AND CLIENTS*/
+
+	.testimonials p:last-child{
+		margin-top: 25px;
+		margin-bottom: 40px;
+	}
+
+	/*FOOTER*/
+
+	.copyright{
+		font-size: 12px;
+	}
+
+	footer .logo{
+		width:100%;
+		text-align: center;
+	}
+
+	/*PORTFOLIO*/
+	.portfolio__gallery figure{
+		width: 49%;
+		margin-right: 0;
+	}
+
+	.portfolio__gallery{
+		margin-right: -5px;
+	}
+
+}
+
+@media(max-width: 575px){
+	
+	/*FEATURE*/
+
+	.features p{
+		margin-bottom: -40px;
+	}
+
+	.features .feature{
+		margin-bottom: 20px;
+	}
+
+
+	/*TEST AND CLIENTS*/
+	.testimonials{
+		margin-top: 20px;
+	}
+
+	/*FOOTER*/
+
+	footer{
+		text-align: center;
+	}
+
+	footer h6{
+		font-size: 18px;
+	}
+
+	.about, .footer-menu_explore li, .footer-menu_browse li, .contact p{
+		font-size: 16px;
+	}
+
+	/*CONTACT*/
+	.contact__content input{
+		width: 400px;
+	}
+
+	.contact__content textarea{
+		width: 400px;
+	}
+	
+}
+
+
+@media(max-width: 480px){
+	
+	/*FEATURES*/
+	
+	.features p{
+		margin-bottom: 0;
+	}
+
+	/*LATEST WORKS*/
+
+	.latest-works__content figure figcaption{
+		padding-left: 32%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.latest-works figure figcaption .fas:first-child{
+		padding-right: 20px;
+	}
+
+	.latest-works__content figure figcaption
+
+	/*TEST AND CLIENTS*/
+
+	.clients__logos__item{
+		margin-bottom: 5px;
+	}
+
+	/*PORTFOLIO*/
+	.portfolio__gallery figure{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.portfolio__gallery img{
+		width: 250px;
+	}
+	.portfolio__gallery figure figcaption{
+		width: 250px;
+		padding-left: 83px;
+	}
+
+	.portfolio__gallery figure{
+		width: 250px;
+	}
+
+	/*CONTACT*/
+	.contact__content input{
+		width: 300px;
+	}
+
+	.contact__content textarea{
+		width: 300px;
+	}
+}
+
